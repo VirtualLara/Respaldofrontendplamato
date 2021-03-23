@@ -1,0 +1,118 @@
+.content {
+    border: 3px solid;
+    border-Radius: 3%;
+     /* borderColor:'#5DADE2' */ 
+     border-Color: orange;
+    background:white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.image {
+    height: 100px !important;
+}
+
+.contentInfo {
+    width: 25rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+.titleInfo {
+    text-Align: center;
+}
+
+.contentInfoPrice {
+    display: flex;
+    flex-Direction: row;
+}
+
+.contentInfoP {
+    width: 70%;
+}
+
+.descr {
+    text-align: justify;
+    padding: 7px;
+}
+
+.infoPrice {
+    /* className='btn-success' */ 
+    width: 30%;
+    border: 1px solid;
+    border-Color: silver;
+    border-Radius: 15px;
+    background: #34495E ;
+}
+
+.titlePrice {
+    text-Align: center;
+    font-Weight:bold;
+    color: white; 
+}
+
+.price {
+    text-Align: center;
+    font-Weight:bold;
+    color: orange; 
+}
+
+.info {
+    padding-top: 5px;
+}
+
+.contentSlectors{
+    display: flex;
+    flex-direction: row;
+}
+
+.titleSelector {
+    width: 30%;
+    height: 45px;
+}
+
+.selectorInput {
+    width: 20%;
+    height: 45px;
+}
+
+.contentTotal {
+    display: flex;
+    flex-Direction: row;
+}
+
+.total {
+    width: 50%;
+}
+
+.contentBtn {
+    display: flex;
+    flex-Direction: row;
+    flex-Wrap: wrap;
+    justify-Content: center;
+    align-Items: center; 
+}
+
+.btnTooltip {
+    width:30%;
+    margin: 3px;
+    font-Weight: bold;
+}
+
+.titleTooltip {
+    color: orange;
+    text-Align: center;
+}
+
+.subtitleTooltip {
+    color: yellow;
+}
+
+.encabezadoTooltip {
+    font-Weight:bold;
+    color: black;
+}
+
+.descrTolltip {
+    color:white;
+}
